@@ -1,0 +1,23 @@
+00:00:41,720 --> 00:00:49,160
+ChatCompletion(
+  id='chatcmpl-8gwWgj6wQgHQJrusdvE2Vgl88CviE',
+  choices=[
+    Choice(
+      finish_reason='stop',
+      index=0,
+      logprobs=None,
+      message=ChatCompletionMessage(
+        content='Katakan ini adalah sebuah tes[END]',
+        role='assistant',
+        function_call=None,
+        tool_calls=None
+      )
+    )
+  ],
+  created=1705245442,
+  model='gpt-4-1106-preview',
+  object='chat.completion',
+  system_fingerprint='fp_168383a679',
+  usage=CompletionUsage(completion_tokens=10, prompt_tokens=67, total_tokens=77)
+)
+
